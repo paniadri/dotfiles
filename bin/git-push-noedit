@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Push with no edits. Useful to trigger events on push
+
+git commit --amend --no-verify --no-edit && git push --force
